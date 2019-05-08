@@ -33,7 +33,7 @@
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wpadded"
 
-#define	VM_MAXCPU 16 /* maximum virtual cpus */
+#define	VM_MAXCPU 32 /* maximum virtual cpus */
 
 enum vm_suspend_how {
 	VM_SUSPEND_NONE,
